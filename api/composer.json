@@ -1,0 +1,25 @@
+{
+    "name": "ice/api",
+    "description": "ThinkPHP Api",
+    "keywords": [
+        "thinkphp",
+        "api",
+        "think-api",
+        "thinkphp-api"
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Ice",
+            "email": "190520601@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ice\\Api\\": "src/"
+        }
+    }
+}
